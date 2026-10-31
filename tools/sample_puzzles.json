@@ -1,0 +1,62 @@
+[
+ {
+  "id": "bm00001",
+  "fen": "r4rk1/4qpp1/p3p2p/1p1n1b2/7B/1P6/PP3PPP/3RQRK1 w - - 0 19",
+  "moves": [
+   "h4e7"
+  ],
+  "evalCp": 524,
+  "sourceGame": "https://lichess.org/r1hjky2j",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ },
+ {
+  "id": "bm00002",
+  "fen": "rnbq2k1/2b2rBp/p5pP/1p1p2P1/2P1B3/8/3PP3/RN1QK1NR b KQ - 0 20",
+  "moves": [
+   "c7g3"
+  ],
+  "evalCp": 99999,
+  "sourceGame": "https://lichess.org/vdex79io",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ },
+ {
+  "id": "bm00003",
+  "fen": "r3r2k/3bbppp/1qnppn2/p1p5/4P3/PBPP1N1P/1P1QNPPB/1R2R1K1 b - - 0 19",
+  "moves": [
+   "b6b3"
+  ],
+  "evalCp": 638,
+  "sourceGame": "https://lichess.org/ewgdih6m",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ },
+ {
+  "id": "bm00004",
+  "fen": "rn1qkb1r/pp3pp1/2p1pnbp/4P1B1/3P4/2N2N2/PP2BPPP/R2QK2R w KQkq - 0 10",
+  "moves": [
+   "g5h4"
+  ],
+  "evalCp": 568,
+  "sourceGame": "https://lichess.org/7dn33ypj",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ },
+ {
+  "id": "bm00005",
+  "fen": "6k1/2q2pp1/3p2p1/3P4/1pP2PQ1/r3B2P/P2R2PK/3n4 b - - 9 34",
+  "moves": [
+   "d1e3"
+  ],
+  "evalCp": 593,
+  "sourceGame": "https://lichess.org/o2l2ra8g",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ },
+ {
+  "id": "bm00006",
+  "fen": "1k1r1r2/1p4b1/p2p1p2/3N2pp/2nP4/4P1P1/PP4PP/2R2RK1 w - - 0 21",
+  "moves": [
+   "c1c4"
+  ],
+  "evalCp": 463,
+  "sourceGame": "https://lichess.org/wjmg3i9z",
+  "madeBy": "Made by your bot from a Lichess game (CC0); checked with Stockfish for a single best answer"
+ }
+]

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>My App</title>
+  <meta name="theme-color" content="#1f6f5c">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <style>
+    :root { color-scheme: light dark; --accent: #1f6f5c; font-family: system-ui, sans-serif; }
+    body { margin: 0; padding: env(safe-area-inset-top) 16px 24px; max-width: 640px; margin-inline: auto; }
+    header { display: flex; justify-content: space-between; align-items: center; }
+    button { min-height: 44px; min-width: 44px; padding: 0 16px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-size: 16px; }
+    button.ghost { background: transparent; color: inherit; border: 1px solid currentColor; }
+    dialog { max-width: 90vw; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My App</h1>
+    <button class="ghost" id="settingsBtn" aria-label="Settings">⚙︎</button>
+  </header>
+  <main id="app"><!-- feature UI goes here --></main>
+
+  <dialog id="settings">
+    <h2>Settings</h2>
+    <p>Your data lives only on this device. Back it up now and then.</p>
+    <p><button id="exportBtn">Export backup</button></p>
+    <p><label>Import backup <input type="file" id="importFile" accept="application/json"></label></p>
+    <h3>Open-source credits</h3>
+    <ul id="credits"><!-- one <li> per part: name, license, link --></ul>
+    <p><small>Not affiliated with any app or company. Personal use.</small></p>
+    <p><button class="ghost" id="closeSettings">Close</button></p>
+  </dialog>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
